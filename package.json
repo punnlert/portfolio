@@ -46,6 +46,8 @@
   },
   "type": "module",
   "dependencies": {
+    "@fontsource-variable/instrument-sans": "^5.1.0",
+    "@fontsource/instrument-serif": "^5.1.0",
     "@fontsource/inter": "^4.5.15",
     "@fontsource/merriweather": "^4.5.14",
     "@fontsource/ubuntu-mono": "^4.5.11"

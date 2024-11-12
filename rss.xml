@@ -11,12 +11,12 @@
 >
   <channel>
     <atom:link href="https://punnlert.github.io//rss.xml" rel="self" type="application/rss+xml" />
-    <title>SvelteKit Static Blog Template</title>
+    <title>Punn Lertjaturaphat's Personal Portfolio</title>
     <link>https://punnlert.github.io/</link>
-    <description>A light, neat, and easy-to-use SvelteKit template for your next website.</description>
+    <description>Punn Lertjaturaphat is a playful industrial designer who loves to create meaningful interaction.</description>
     <image>
       <url>https://punnlert.github.io//favicons/favicon-32x32.png</url>
-      <title>SvelteKit Static Blog Template</title>
+      <title>Punn Lertjaturaphat's Personal Portfolio</title>
       <link>https://punnlert.github.io/</link>
       <width>32</width>
       <height>32</height>

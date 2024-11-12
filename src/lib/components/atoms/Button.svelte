@@ -79,8 +79,9 @@
 
 		&.style {
 			&--solid {
-				background-color: rgb(var(--main-color));
-				color: var(--contrast-color);
+				// background-color: rgb(var(--main-color));
+				// color: var(--contrast-color);
+				border-style: dashed;
 
 				&:hover {
 					box-shadow: 0px 0px 1px 7px rgba(var(--main-color), 0.3);

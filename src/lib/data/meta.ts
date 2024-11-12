@@ -14,8 +14,8 @@ export const keywords = [
 ];
 
 export const description =
-	"A light, neat, and easy-to-use SvelteKit template for your next website.";
+	"Punn Lertjaturaphat is a playful industrial designer who loves to create meaningful interaction.";
 
-export const title = 'SvelteKit Static Blog Template';
+export const title = 'Punn Lertjaturaphat\'s Personal Portfolio';
 
 export const image = `${siteBaseUrl}/images/site-preview.png`;

@@ -1,8 +1,13 @@
 :root {
 	// Fonts
-	--font--default: Instrument Sans Variable, sans-serif;
-	--font--title: Instrument Serif, serif;
-	--font--mono: Ubuntu Mono, monospace;
+	--font--default: Anonymous Pro, monospace;
+	// --font--default: Space Mono, monospace;
+	// --font--default: Space Mono, sans-serif;
+	// --font--title: Poppins, sans-serif;
+	// --font--title: Instrument Serif, serif;
+	--font--title: Poppins, sans-serif;
+	// --font--title: Space Mono, sans-serif;
+	--font--mono: Space Mono, monospace;
 
 	// Grabbed from open-props.style
 	--ease-3: cubic-bezier(0.25, 0, 0.3, 1);

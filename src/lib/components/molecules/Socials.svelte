@@ -8,7 +8,7 @@
 </script>
 
 <div class="socials">
-	<a
+	<!-- <a
 		href="#"
 		target="_blank"
 		rel="noopener noreferrer"
@@ -23,9 +23,9 @@
 		title="Say Hi on Mastodon"
 	>
 		<MastodonIcon />
-	</a>
+	</a> -->
 	<a
-		href="#"
+		href="https://github.com/punnlert"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See my GitHub profile"
@@ -33,7 +33,7 @@
 		<GitHubIcon />
 	</a>
 	<a
-		href="#"
+		href="https://www.linkedin.com/in/punn-lertjaturaphat/"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Connect on LinkedIn"
@@ -41,7 +41,7 @@
 		<LinkedInIcon />
 	</a>
 	<a
-		href="#"
+		href="mailto: punnlertjaturaphat@gmail.com"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Send an email"

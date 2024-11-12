@@ -7,12 +7,17 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			This is a catchy headline that
-			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight>
+			<!-- This is a catchy headline that
+			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight> -->
+			Hi! I'm Punn Lertjaturaphat.
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
+			A designer who loves to create meaningful interaction. I always keep looking for a way to mix
+			fun physical experience into an otherwise mundane digital task we perform everyday.
+		</p>
+		<p>
+			I keep my days going with small talks with cafeteria ladies, songs on cracked speakers, and
+			the romance of handwritten letters.
 		</p>
 		<div class="socials">
 			<span>Socials:</span>
@@ -20,10 +25,7 @@
 		</div>
 	</div>
 	<div class="image">
-		<Image
-			src="/images/sample-image.png"
-			alt="Sample for the static template"
-		/>
+		<Image src="/images/profile.jpeg" alt="Punn with a cat" />
 	</div>
 </section>
 
@@ -33,7 +35,7 @@
 	#about {
 		position: relative;
 		display: grid;
-		grid-template-columns: 500px 250px;
+		grid-template-columns: 500px 350px;
 		align-items: center;
 		justify-content: space-between;
 		padding-bottom: 50px;
@@ -80,8 +82,8 @@
 		}
 
 		.image {
-			width: 220px;
-			height: 220px;
+			width: 100%;
+			height: 100%;
 		}
 	}
 </style>

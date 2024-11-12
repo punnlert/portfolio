@@ -9,12 +9,12 @@
 
 <ContentSection
 	id="recent-posts"
-	title="Blog posts"
-	description="This section shows the 4 most recent blog posts. Check them out for tips on how to get started!"
-	align="left"
+	title="Proudly Presents"
+	description="Here are some of the highlights of my projects."
+	align="top"
 >
 	<div slot="button">
-		<Button href="/blog">View More</Button>
+		<Button href="/projects">View All</Button>
 	</div>
 	<div class="grid">
 		{#each posts as post}
@@ -24,7 +24,7 @@
 				excerpt={post.excerpt}
 				tags={post.tags}
 				readingTime={post.readingTime}
-				showImage={false}
+				coverImage={post.coverImage}
 			/>
 		{/each}
 	</div>
@@ -36,7 +36,7 @@
 	.grid {
 		width: 100%;
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 		grid-gap: 20px;
 
 		@include for-phone-only {

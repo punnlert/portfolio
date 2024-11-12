@@ -6,9 +6,9 @@
 </script>
 
 <footer>
-	<div class="wave">
+	<!-- <div class="wave">
 		<FooterWave />
-	</div>
+	</div> -->
 	<div class="content">
 		<div class="copyright">
 			This template was built by <a
@@ -25,17 +25,19 @@
 		</div>
 		<div class="socials">
 			<Socials />
-			<RssLink />
-			<ThemeToggle />
+			<!-- <RssLink />
+			<ThemeToggle /> -->
 		</div>
 	</div>
 </footer>
 
 <style lang="scss">
 	footer {
-		height: 340px;
+		height: fit-content;
+		padding-top: 100px;
+		padding-bottom: 50px;
 		width: 100%;
-		background: linear-gradient(60deg, var(--color--waves-start) 0%, var(--color--waves-end) 100%);
+		// background: linear-gradient(60deg, var(--color--waves-start) 0%, var(--color--waves-end) 100%);
 		display: grid;
 		grid-template-rows: 120px 1fr;
 

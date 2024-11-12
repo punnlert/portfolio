@@ -6,23 +6,23 @@
 </script>
 
 <section id="hero">
-	<h1 class="hello">This is a SvelteKit Static Blog Template!</h1>
-	<p class="intro">
+	<h2 class="hello">Welcome to</h2>
+	<h1 class="hello">Punn Lertjaturaphat's</h1>
+	<h2 class="hello">Portfolio</h2>
+	<!-- <p class="intro">
 		<span class="left">It supports Markdown,</span>
 		<span class="right">and is really fast.</span>
 	</p>
 	<div class="ctas">
-		<Sparkles>
-			<Button href="https://github.com/matfantinel/sveltekit-static-blog-template">
-				<GitHubIcon slot="icon" />
-				Source Code
-			</Button>
-		</Sparkles>
+		<Button href="https://github.com/matfantinel/sveltekit-static-blog-template">
+			<GitHubIcon slot="icon" />
+			Source Code
+		</Button>
 		<Button color="primary" href="https://histoire-sveltekit-static-blog-template.vercel.app/">
 			<FeaturesIcon slot="icon" />
 			Components
 		</Button>
-	</div>
+	</div> -->
 </section>
 
 <style lang="scss">
@@ -31,9 +31,9 @@
 	#hero {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		gap: 15px;
+		justify-content: flex-start;
+		align-items: flex-start;
+		gap: 0px;
 		position: relative;
 		padding: 80px 0;
 
@@ -42,7 +42,8 @@
 		}
 
 		.hello {
-			text-align: center;
+			text-align: left;
+			letter-spacing: -0.03em;
 		}
 
 		.intro {

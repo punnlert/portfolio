@@ -45,7 +45,7 @@
 </svelte:head>
 
 <div class="article-layout">
-	<Header showBackground />
+	<Header />
 
 	<main>
 		<article id="article-content">

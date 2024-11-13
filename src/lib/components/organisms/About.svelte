@@ -37,8 +37,14 @@
 		display: grid;
 		grid-template-columns: 500px 400px;
 		align-items: center;
-		justify-content: space-around;
+		justify-content: space-between;
 		padding-bottom: 50px;
+
+		@media (max-width: 1000px) {
+			grid-template-columns: 1fr;
+			justify-items: center;
+			gap: 20px;
+		}
 
 		@include for-phone-only {
 			grid-template-columns: 1fr;

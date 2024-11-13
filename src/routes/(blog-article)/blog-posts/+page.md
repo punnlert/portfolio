@@ -1,4 +1,5 @@
 ---
+hidden: true
 title: How Blog Posts Work
 slug: blog-posts
 coverImage: /images/posts/blog-posts.jpg

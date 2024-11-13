@@ -31,7 +31,7 @@ h1 {
 	font-weight: 800;
 
 	@include for-phone-only {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 }
 

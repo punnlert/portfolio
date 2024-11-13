@@ -82,8 +82,20 @@
 		}
 
 		.image {
-			width: 100%;
-			height: 100%;
+			margin: 0 auto;
+			max-height: 400px;
+			box-shadow: var(--image-shadow);
+			border-radius: 12px;
+			border-style: solid;
+			border-width: 3px;
+			overflow: hidden;
+
+			img {
+				width: 100%;
+				height: 100%;
+				max-height: 400px;
+				object-fit: cover;
+			}
 		}
 	}
 </style>

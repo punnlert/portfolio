@@ -18,7 +18,7 @@
 
 	@include define-color('page-background', #efe9d1);
 	@include define-color('post-page-background', #efe9d1);
-	@include define-color('card-background', #efebda);
+	@include define-color('card-background', #eee9d4);
 
 	// Used for Callout component
 	@include define-color('callout-background', #f4f8fb);
@@ -55,14 +55,14 @@
 
 	@include define-color('yellow', #ffd400);
 
-	@include define-color('text', #ffffff);
-	@include define-color('text-shade', #9eb4b5);
+	@include define-color('text', #efe9d1);
+	@include define-color('text-shade', #b5ad8c);
 	@include define-color('text-inverse', #1c1e26);
 	@include define-color('text-inverse-shade', #5d5f65);
 
-	@include define-color('page-background', #1c1e26);
-	@include define-color('post-page-background', #141519);
-	@include define-color('card-background', #32343e);
+	@include define-color('page-background', #145138);
+	@include define-color('post-page-background', #145138);
+	@include define-color('card-background', #2d6950);
 
 	// Used for Callout component
 	@include define-color('callout-background', #1c1e26);

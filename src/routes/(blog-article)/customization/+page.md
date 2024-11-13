@@ -1,4 +1,5 @@
 ---
+hidden: true
 slug: customization
 title: How to Customize this Template
 date: 2023-04-22T21:55:27.154Z

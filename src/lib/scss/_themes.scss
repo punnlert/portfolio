@@ -3,7 +3,7 @@
 @mixin base-theme {
 	@include define-color('primary', #277857);
 	@include define-color('primary-shade', #82a496);
-	@include define-color('primary-tint', #c9d3cd);
+	@include define-color('primary-tint', #73bfa9);
 
 	@include define-color('secondary', #ff571a);
 	@include define-color('secondary-shade', #ffa280);
@@ -81,13 +81,13 @@
 :root {
 	@include base-theme;
 
-	&[data-theme='dark'] {
-		@include dark-theme;
-	}
+	// &[data-theme='dark'] {
+	// 	@include dark-theme;
+	// }
 
-	&[data-theme='auto'] {
-		@media (prefers-color-scheme: dark) {
-			@include dark-theme;
-		}
-	}
+	// &[data-theme='auto'] {
+	// 	@media (prefers-color-scheme: dark) {
+	// 		@include dark-theme;
+	// 	}
+	// }
 }

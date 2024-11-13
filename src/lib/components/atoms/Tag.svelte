@@ -20,8 +20,8 @@
 		white-space: nowrap;
 
 		&.primary {
-			background-color: var(--color--primary-tint);
-			color: var(--color--primary);
+			background-color: var(--color--primary);
+			color: var(--color--page-background);
 		}
 		&.secondary {
 			background-color: var(--color--secondary-tint);

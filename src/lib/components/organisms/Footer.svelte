@@ -26,7 +26,7 @@
 		<div class="socials">
 			<Socials />
 			<!-- <RssLink /> -->
-			<ThemeToggle />
+			<!-- <ThemeToggle /> -->
 		</div>
 	</div>
 </footer>

@@ -84,7 +84,9 @@
 				border-style: dashed;
 
 				&:hover {
-					box-shadow: 0px 0px 1px 7px rgba(var(--main-color), 0.3);
+					// box-shadow: 0px 0px 1px 7px rgba(var(--main-color), 0.3);
+					background-color: rgb(var(--main-color));
+					color: var(--color--page-background)
 				}
 			}
 			&--understated {

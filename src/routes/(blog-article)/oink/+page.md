@@ -3,7 +3,7 @@ slug: oink
 title: Oink
 date: 2023-04-22T21:55:27.154Z
 excerpt: Reshaping digital financial experience for kids and preteens by introducing tangible interface.
-coverImage: /images/posts/customization.jpg
+coverImage: /images/posts/oink.png
 tags:
   - UX Design
   - UI Design

@@ -74,8 +74,11 @@
 				text-decoration: none;
 
 				&:hover {
-					color: var(--color--primary);
-					filter: drop-shadow(0px 0px 3px var(--color--primary));
+					text-decoration: underline;
+
+					// get rid of shadows
+					// color: var(--color--primary);
+					// filter: drop-shadow(0px 0px 3px var(--color--primary));
 				}
 			}
 		}

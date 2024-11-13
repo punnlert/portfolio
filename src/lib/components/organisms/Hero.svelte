@@ -3,11 +3,14 @@
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Sparkles from '../atoms/Sparkles.svelte';
+	import Logo from '../atoms/Logo.svelte';
 </script>
 
 <section id="hero">
-	<h2 class="hello">Welcome to</h2>
-	<h1 class="hello">Punn Lertjaturaphat's</h1>
+	<div class="name">
+		<h1>Punn</h1>
+		<h1>Lertjaturphat's</h1>
+	</div>
 	<h2 class="hello">Portfolio</h2>
 	<!-- <p class="intro">
 		<span class="left">It supports Markdown,</span>
@@ -32,18 +35,27 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		align-items: flex-start;
+		align-items: center;
 		gap: 0px;
 		position: relative;
-		padding: 80px 0;
+		padding: 100px 0;
 
 		@include for-phone-only {
 			padding: 40px 0 50px;
 		}
 
+		.name {
+			margin-bottom: 1.5em;
+			h1 {
+				text-align: center;
+				line-height: 1;
+			}
+		}
+
 		.hello {
-			text-align: left;
-			letter-spacing: -0.03em;
+			font-family: var(--font--special);
+			text-align: center;
+			line-height: 1;
 		}
 
 		.intro {

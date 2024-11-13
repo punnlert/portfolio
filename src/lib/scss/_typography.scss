@@ -27,11 +27,11 @@ i {
 
 // #region Titles
 h1 {
-	font-size: 4rem;
+	font-size: 6rem;
 	font-weight: 800;
 
 	@include for-phone-only {
-		font-size: 2rem;
+		font-size: 3.5rem;
 	}
 }
 

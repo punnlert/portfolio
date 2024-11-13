@@ -5,8 +5,8 @@
 <div class="logo" class:animated>
 	<svg
 		id="logo-text"
-		width="285.62"
-		height="146.69"
+		width="668.86642"
+		height="343.51459"
 		viewBox="0 0 285.62 146.69"
 		xmlns="http://www.w3.org/2000/svg"
 	>
@@ -45,6 +45,8 @@
 			max-height: 60px;
 
 				transition: all 0.2s ease-in-out;
+			#text {
+			}
 		}
 
 		&:hover {

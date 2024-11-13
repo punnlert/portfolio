@@ -5,6 +5,9 @@
 </script>
 
 <section id="about">
+	<div class="image">
+		<Image src="/images/profile.jpeg" alt="Punn with a cat" />
+	</div>
 	<div class="info">
 		<h2>
 			<!-- This is a catchy headline that
@@ -24,9 +27,6 @@
 			<Socials />
 		</div>
 	</div>
-	<div class="image">
-		<Image src="/images/profile.jpeg" alt="Punn with a cat" />
-	</div>
 </section>
 
 <style lang="scss">
@@ -35,9 +35,9 @@
 	#about {
 		position: relative;
 		display: grid;
-		grid-template-columns: 500px 350px;
+		grid-template-columns: 500px 400px;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: space-around;
 		padding-bottom: 50px;
 
 		@include for-phone-only {
@@ -84,7 +84,7 @@
 		.image {
 			margin: 0 auto;
 			max-height: 400px;
-			box-shadow: var(--image-shadow);
+			// box-shadow: var(--image-shadow);
 			border-radius: 12px;
 			border-style: solid;
 			border-width: 3px;

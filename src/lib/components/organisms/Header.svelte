@@ -13,8 +13,8 @@
 		</a>
 		<div class="links">
 			<a href="/projects">Projects</a>
-			<a href="/projects">About</a>
-			<a href="/projects">Resume</a>
+			<a id="reach" href="/projects">About</a>
+			<a id="reach" href="/projects">Resume</a>
 			<!-- <RssLink /> -->
 			<!-- <ThemeToggle /> -->
 		</div>
@@ -48,7 +48,7 @@
 
 			@include for-phone-only {
 				.links {
-					a {
+					a:not(#reach) {
 						display: none;
 					}
 				}
@@ -72,6 +72,11 @@
 
 			a {
 				text-decoration: none;
+				font-weight: 600;
+
+				@include for-phone-only {
+					font-weight: 500;
+				}
 
 				&:hover {
 					text-decoration: underline;

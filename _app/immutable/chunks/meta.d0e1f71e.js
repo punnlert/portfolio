@@ -1,1 +1,0 @@
-const t="https://punnlert.github.io/",e=["Svelte","SvelteKit","Template","Blog","Starter","Static Site"],a="Punn Lertjaturaphat is a playful industrial designer who loves to create meaningful interaction.",s="Punn Lertjaturaphat's Personal Portfolio",i=`${t}/images/site-preview.png`;export{a as d,i,e as k,t as s,s as t};

@@ -5,12 +5,12 @@
 export const siteBaseUrl = 'https://punnlert.github.io/';
 
 export const keywords = [
-	'Svelte',
-	'SvelteKit',
-	'Template',
-	'Blog',
-	'Starter',
-	'Static Site'
+	'Industrial Design',
+	'Interaction Design',
+	'UX Design',
+	'UI Design',
+	'Punn Lertjaturaphat',
+	'Portfolio'
 ];
 
 export const description =
